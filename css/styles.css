@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: black;
+}
+
+/* Estilos generales */
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+section{
+    width: 100%;
+}
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+/* estilos del header */
+.container_header{
+    width: 100%;
+    display: flex;
+    padding: 20px 40px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_nav{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav_link{
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.nav_link:hover{
+    text-decoration: underline;
+}
+
+button{
+    background-color: whitesmoke;
+    border:1px solid black;
+    padding: 5px 25px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* estilos del header */
